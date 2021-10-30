@@ -1,0 +1,17 @@
+.destination-form form{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center ;
+}
+.destination-form form input{
+    width: 40%;
+    padding: 8px;
+    margin:10px 0;
+}
+.destination-form form textarea{
+    width: 40%;
+    padding: 8px;
+    margin:10px 0;
+}

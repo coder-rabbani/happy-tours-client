@@ -1,0 +1,11 @@
+.hero-area{
+    align-items: center;
+}
+.hero-area h1{
+    font-weight: 900;
+    font-size: 65px;
+}
+.hero-area p{
+    font-weight: 600;
+    font-size: 25px;
+}

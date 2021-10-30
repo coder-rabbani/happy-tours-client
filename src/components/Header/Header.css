@@ -1,0 +1,11 @@
+.align-middle{
+    align-items: center;
+    gap:20px;
+}
+.align-middle a{
+    color:#212529 !important;
+}
+.align-middle .happy-btn{
+    color:#ffffff !important;
+    padding:10px 25px !important;
+}

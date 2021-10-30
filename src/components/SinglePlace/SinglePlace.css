@@ -1,0 +1,12 @@
+.booking-form form{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center ;
+}
+.booking-form form input, textarea{
+    width: 100%;
+    padding: 8px;
+    margin:10px 0;
+}

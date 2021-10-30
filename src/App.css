@@ -1,5 +1,19 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
+}
+
+.happy-btn{
+  background-color: #49AD09;
+  border: none;
+  color:white;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 22px;
+}
+.happy-btn:hover{
+  background-color: #313131;
+  border: none;
+  color:white;
 }
 
 .App-logo {
