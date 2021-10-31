@@ -7,7 +7,7 @@ const Destinations = () => {
     const [destinations, setDestinations] = useState([]); 
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/places')
+        axios.get('https://morning-mountain-71318.herokuapp.com/places')
         .then(res => {
             setDestinations(res.data);
         })
@@ -15,7 +15,7 @@ const Destinations = () => {
     return (
         <div>
             <Container className="py-5">
-                <h2 className="text-center pb-4 pt-4">Most Popular Destinations</h2>
+                <h2 className="text-center pb-4 pt-4 fw-bold">Most Popular Destinations</h2>
                 <Row xs={1} md={3} className="g-4">
                     {
                         destinations.map(destination=><Destination

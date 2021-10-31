@@ -9,3 +9,8 @@
     color:#ffffff !important;
     padding:10px 25px !important;
 }
+@media(max-width:668px){
+    .logo{
+        width: 150px !important;
+    }
+}

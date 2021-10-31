@@ -1,0 +1,19 @@
+.manage-order{
+    display: grid;
+    grid-template-columns: auto 100px;
+
+}
+.manage-order button{
+    border:none;
+    background: none;
+}
+
+@media(max-width:668px){
+    .manage-order{
+        display: grid;
+        grid-template-columns: auto 20px;
+    }
+    button img{
+        width:20px;
+    }
+}

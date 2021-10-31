@@ -10,8 +10,8 @@ const Header = () => {
     return (
         <>
             <Navbar sticky="top" bg="light" variant="light" collapseOnSelect expand="lg">
-                <Container>
-                    <Navbar.Brand as={Link} to="/"><img className="w-50" src={logo} alt="" /></Navbar.Brand>
+                <Container className="header">
+                    <Navbar.Brand as={Link} to="/"><img className="w-50 logo" src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="align-middle">

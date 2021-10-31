@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AddDestination from './components/AddDestination/AddDestination';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
@@ -30,10 +31,10 @@ function App() {
             <PrivateRoute path="/places/:id">
               <SinglePlace></SinglePlace>
             </PrivateRoute>
-            <PrivateRoute path="/manage-destinations">
+            <PrivateRoute path="/manage-destination">
               <ManageDestinations></ManageDestinations>
             </PrivateRoute>
-            <PrivateRoute path="/my-destinations">
+            <PrivateRoute path="/my-destination">
               <MyDestinations></MyDestinations>
             </PrivateRoute>
             <Route path="/login">
@@ -43,6 +44,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>

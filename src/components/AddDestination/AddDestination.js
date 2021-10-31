@@ -6,7 +6,7 @@ import './AddDestination.css';
 const AddDestination = () => {
     const { register, handleSubmit, reset} = useForm();
     const onSubmit = data => {
-        axios.post('http://localhost:5000/destinations', data)
+        axios.post('https://morning-mountain-71318.herokuapp.com/destinations', data)
         .then(res=>{
             if(res.data.insertedId){
                 alert('Destination Added Successfully');
