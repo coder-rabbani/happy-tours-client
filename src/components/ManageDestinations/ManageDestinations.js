@@ -6,7 +6,7 @@ import './ManageDestinations.css';
 const ManageDestinations = () => {
     const [allDestinations, setAllDestinations] = useState([]);
     useEffect(()=>{
-        axios.get('http://localhost:5000/manageDestinations')
+        axios.get('https://morning-mountain-71318.herokuapp.com/manageDestinations')
         .then(res=>setAllDestinations(res.data))
     },[]);
     return (

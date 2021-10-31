@@ -19,7 +19,7 @@ const SinglePlace = () => {
     const {user} = useAuth();
     const { register, handleSubmit, reset} = useForm();
     const onSubmit = data => {
-        axios.post('http://localhost:5000/booking', data)
+        axios.post('https://morning-mountain-71318.herokuapp.com/booking', data)
         .then(res=>{
             if(res.data.insertedId){
                 alert('Successfully Booked! Thanks');

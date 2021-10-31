@@ -8,13 +8,13 @@ const MyDestinations = () => {
     const [destinations, setDestinations] = useState([]);
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/manageDestinations')
+        axios.get('https://morning-mountain-71318.herokuapp.com/manageDestinations')
         .then(res=>setDestinations(res.data))
     }, []);
 
     //handle delete item
     const handleDeleteItem = id =>{
-        axios.delete(`http://localhost:5000/manageDestinations/${id}`)
+        axios.delete(`https://morning-mountain-71318.herokuapp.com/manageDestinations/${id}`)
         .then(res=>{
             if(res.data.deletedCount){
                 alert('Your destination deleted successfully');
