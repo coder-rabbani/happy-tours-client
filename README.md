@@ -5,9 +5,8 @@ Welcome to Happy Tours website. you can now go anywhere with the wold's best vac
 Please see [Live Link](https://confident-mayer-94dc5c.netlify.app/).
 
 ## Key Features
-1. This app built with React, Node, Express and Mongobd
-2. I've use Firebase authentication
-3. Without login, user can't visite the private route. 
-4. this app is connect to Express Server
-5. You can book any vacation with the beautiful Itinerary
+1. Description: It’s MERN stack travel planner tour itinerary website with dynamic service section.
+User can book travel itinerary
+2. Technology Used: JavaScript, React, Node, Express, MongoDB,, React Bootstrap, Heroku & Netlify.
+3. Firebase Authentication, Private Routing
 
